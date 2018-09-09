@@ -21,7 +21,7 @@ g++ -Wall -I/usr/include/cppconn -o mysqlapp mysql.cpp -L/usr/lib -lmysqlcppconn
 wxWidgets : 
 ```
 g++ console.cpp `wx-config --cxxflags --libs` -o console 
-g++ main.cpp main.h simple.cpp simple.h  `wx-config --cxxflags --libs` -o simple 
+g++ main.cpp main.h panels.cpp panels.h communicate.cpp communicate.h `wx-config --cxxflags --libs` -o simple 
 ```
 
 Run  : 

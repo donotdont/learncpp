@@ -10,7 +10,8 @@ Communicate::Communicate(const wxString& title)
 
   SetIcon(wxIcon(wxT("ironman.ico")));
 
-  wxBoxSizer *hbox = new wxBoxSizer(wxHORIZONTAL);
+  //wxBoxSizer *hbox = new wxBoxSizer(wxHORIZONTAL);
+  wxBoxSizer *hbox = new wxBoxSizer(wxVERTICAL);
 
   m_tp = new TopPanel(panel);
   m_lp = new LeftPanel(panel);

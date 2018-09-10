@@ -1,1 +1,4 @@
 g++ -Wall -I/usr/include/cppconn -o mysqlapp mysql.cpp -L/usr/lib -lmysqlcppconn
+
+http://zetcode.com/gui/wxwidgets/thetetrisgame/
+https://brucey.net/programming/blitz/tutorials/prog/en/layoutmanagement.html
